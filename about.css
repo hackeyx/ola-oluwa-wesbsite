@@ -1,0 +1,39 @@
+body{
+	background:linear-gradient(#fc03fc, white);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+ul{
+	list-style-type:none;
+	position:sticky;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	margin:20px;
+	background-color:#f403fc;
+	position:sticky;
+
+	top:0px;
+
+}
+li a{
+	float:left;
+	display:block;
+	color:white;
+	padding:10px 15px;
+	text-align:center;
+	text-decoration:none;
+	border-right:1px solid black;
+	min-width:60px;
+}
+li a:hover{
+	background-color:#000000;
+	animation:glow;
+	animation-duration:10s;
+}
+@keyframes glow{
+	50%{color:white}
+	100%{color:#fc03b5}
+}
